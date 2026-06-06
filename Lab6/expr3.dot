@@ -1,0 +1,27 @@
+digraph G {
+h0 [color = lightblue, style = filled, label="-"];
+h0 -> h1;
+h1 [color = lightblue, style = filled, label="+"];
+h1 -> h2;
+h2 [color = lightblue, style = filled, label="a"];
+h1 -> h3;
+h3 [color = lightblue, style = filled, label="*"];
+h3 -> h4;
+h4 [color = lightblue, style = filled, label="b"];
+h3 -> h5;
+h5 [color = lightblue, style = filled, label="c"];
+h0 -> h6;
+h6 [color = lightblue, style = filled, label="*"];
+h6 -> h7;
+h7 [color = lightblue, style = filled, label="+"];
+h7 -> h8;
+h8 [color = lightblue, style = filled, label="*"];
+h8 -> h9;
+h9 [color = lightblue, style = filled, label="d"];
+h8 -> h10;
+h10 [color = lightblue, style = filled, label="e"];
+h7 -> h11;
+h11 [color = lightblue, style = filled, label="f"];
+h6 -> h12;
+h12 [color = lightblue, style = filled, label="g"];
+}
